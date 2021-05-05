@@ -18,3 +18,17 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+
+#timer-1 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 100px;
+  /* margin-right: auto; */
+  color: tomato;
+  font-size: 50px;
+  font-weight: 700;
+}
+.field:not(:last-child) {
+  margin-right: 50px;
+}
